@@ -35,3 +35,16 @@ Our experimental framework and environment configuration are based on [missing a
 Main code
 ====================================
 See [Main_code](Main_code/Main_code.py) for details. 
+
+Citation 
+============
+If you use this code for your research, please consider citing:
+
+```
+@article{zhi2024borrowing,
+  title={Borrowing Treasures from Neighbors: In-Context Learning for Multimodal Learning with Missing Modalities and Data Scarcity},
+  author={Zhi, Zhuo and Liu, Ziquan and Elbadawi, Moe and Daneshmend, Adam and Orlu, Mine and Basit, Abdul and Demosthenous, Andreas and Rodrigues, Miguel},
+  journal={arXiv preprint arXiv:2403.09428},
+  year={2024}
+}
+```
