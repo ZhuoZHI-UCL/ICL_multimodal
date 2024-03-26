@@ -34,7 +34,7 @@ Our experimental framework and environment configuration are based on [missing a
 
 Main code
 ====================================
-See [Main_code](Main_code/Main_code.py) for details. 
+See [Main_code](Main_code/Main_code.py) for the    implementations details of different ICL modules. 
 
 Citation 
 ============
