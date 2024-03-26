@@ -47,7 +47,9 @@ Special remarks
    ```
    torch.nn.functional.interpolate(x, scale_factor = scale_factor, mode='bilinear', align_corners = True)
    ```
-       to
+
+    to
+  
    ```
    torch.nn.functional.interpolate(x, scale_factor = scale_factor)
    ```
