@@ -20,7 +20,7 @@ Multimodal machine learning with missing modalities is an increasingly relevant 
 
 Overview of the proposed method
 ====================================
-[](Figure/overall_framework.pdf)
+![](Figure/overall_framework.pdf)
 The overview of the proposed method. **(a)** Assuming that each sample contains data with 2 modalities $x_i^{m_1}$ and $x_i^{m_2}$, we get the feature $H_i = ({H_i}^{m_1},{H_i}^{m_2},cls_i)$ of the sample by using a pre-trained multimodal transformer, note that $x_i^{m_1}$ or $x_i^{m_2}$ may be missed. **(b)** We use the $cls$ token to calculate the cosine similarity between the current sample and all full-modality training samples, and then retrieve the most similar $Q$ samples. **(c)** We input the pooled feature of the current sample  $\tilde{H}_i$ and neighbor samples $\tilde{H}^{NN}_i$ into the ICL module to predict the label ${\hat{y}}_i$. Note that only the ICL module requires to be trained and the others are frozen. The retrieval-augmented operation is the same for both the training and inference processes. Note that the words ‘missing modality' and 'incomplete modality', 'full modality' and 'complete modality' are used interchangeably.
 
 
