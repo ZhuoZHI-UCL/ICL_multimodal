@@ -28,3 +28,6 @@ Experimental Setup
 ====================================
 Our experimental framework and environment configuration are based on [missing aware prompts](https://github.com/YiLunLee/missing_aware_prompts). Please check for details. We use four datasets for evaluation. 
 * MedFuse-I (check [Medfuse](https://github.com/nyuad-cai/MedFuse) for details)
+* MedFuse-P (check [Medfuse](https://github.com/nyuad-cai/MedFuse) for details)
+* UPMC Food-101 (check [missing aware prompts](https://github.com/YiLunLee/missing_aware_prompts) for details)
+* Hateful Memes (check [missing aware prompts](https://github.com/YiLunLee/missing_aware_prompts) for details)
