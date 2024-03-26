@@ -31,3 +31,7 @@ Our experimental framework and environment configuration are based on [missing a
 * MedFuse-P (check [Medfuse](https://github.com/nyuad-cai/MedFuse) for details)
 * UPMC Food-101 (check [missing aware prompts](https://github.com/YiLunLee/missing_aware_prompts) for details)
 * Hateful Memes (check [missing aware prompts](https://github.com/YiLunLee/missing_aware_prompts) for details)
+
+Main code
+====================================
+See [Main_code](Main_code/Main_code.py) for details. 
