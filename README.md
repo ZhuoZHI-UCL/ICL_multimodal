@@ -4,12 +4,13 @@ Table of contents
 =================
 
 <!--ts-->
-  * [Background](#Background)
+  * [Abstract](#Abstract)
   * [Overview](#Overview)
   * [Environment setup](#Environment-setup)
-  * [Dataset](#Dataset)
-  * [Model training](#Model-training)
-  * [Model evaluation](#Model-evaluation)
+  * [Citation](#Citation)
+  * [Main code](#Main-code)
+  * [Special remarks](#Special-remarks)
+  * [Evaluation results](#Evaluation-results)
   * [Citation](#Citation)
    
 <!--te-->
@@ -18,7 +19,7 @@ Abstract
 ============
 Multimodal machine learning with missing modalities is an increasingly relevant challenge arising in various applications such as healthcare. This paper extends the current research into missing modalities to the low-data regime, i.e., a downstream task has both missing modalities and limited sample size issues. This problem setting is particularly challenging and also practical as it is often expensive to get full-modality data and sufficient annotated training samples. We propose to use retrieval-augmented in-context learning to address these two crucial issues by unleashing the potential of a transformer's in-context learning ability. Diverging from existing methods, which primarily belong to the parametric paradigm and often require sufficient training samples, our work exploits the value of the available full-modality data, offering a novel perspective on resolving the challenge. The proposed data-dependent framework exhibits a higher degree of sample efficiency and is empirically demonstrated to enhance the classification model's performance on both full- and missing-modality data in the low-data regime across various multimodal learning tasks. When only 1% of the training data are available, our proposed method demonstrates an average improvement of 6.1% over a recent strong baseline across various datasets and missing states. Notably, our method also reduces the performance gap between full-modality and missing-modality data compared with the baseline.
 
-Overview of the proposed method
+Overview 
 ====================================
 ![](Figure/overall_framework.jpg)
 
