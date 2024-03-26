@@ -38,7 +38,25 @@ See [Main_code](Main_code/Main_code.py) for the implementation details of differ
 
 Special remarks
 ====================================
+* The code is based on Pytorch-lightning, to ensure the reproducibility of the experimental results, consider the following:
+    - set the global seed by 
+   ```
+   pl.seed_everything(seed)
+   ```
+    - modify algorithms without deterministic operations from
+   ```
+   torch.nn.functional.interpolate(x, scale_factor = scale_factor, mode='bilinear', align_corners = True)
+   ```
+       to
+   ```
+   torch.nn.functional.interpolate(x, scale_factor = scale_factor)
+   ```
+* Duplicate samples in Medfuse-I and Medfuse-P datasets. See [issues](https://github.com/nyuad-cai/MedFuse/issues/12#issue-1843420799) for the solution.
+* 0 sample error in val and test dataset of Medfuse-I and Medfuse-P datasets. See [issues](https://github.com/nyuad-cai/MedFuse/issues/10#issue-1764373055) for the solution. 
 
+
+
+  
 Citation 
 ============
 If you use this code for your research, please consider citing:
