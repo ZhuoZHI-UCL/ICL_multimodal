@@ -57,6 +57,21 @@ Special remarks
 * 0 sample error in val and test dataset of Medfuse-I and Medfuse-P datasets. See [issues](https://github.com/nyuad-cai/MedFuse/issues/10#issue-1764373055) for the solution. 
 
 
+Evaluation results
+============
+The evaluated results for all datasets under various missing cases and sample sizes are shown in the following tables. Bold number indicates the best performance. With sufficient target dataset size (notably for $r_{sub} > 0.1$), FT-A exhibits superior performance, attributed to the update of all parameters in the target domain. MAP follows closely, achieving competitive results by updating fewer parameters. FT-C, on the other hand, performs the worst at all moments, due to the limited number of updated parameters. When the target data is limited, our proposed ICL method, particularly ICL-CA, demonstrates remarkable efficacy (especially for $r_{sub} < 0.1$), surpassing most baseline approaches. This trend intensifies as $r_{sub}$ decreases.
+
+![](Figure/0.1_1.png)
+![](Figure/0.01-0.1.png)
+
+
+
+
+
+
+
+
+
 
   
 Citation 
