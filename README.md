@@ -12,7 +12,7 @@ Table of contents
   * [Special remarks](#Special-remarks)
   * [Evaluation results](#Evaluation-results)
   * [Citation](#Citation)
-   
+  * [Acknowledgement](#Acknowledgement)
 <!--te-->
 
 Abstract
@@ -87,3 +87,12 @@ If you use this code for your research, please consider citing:
   year={2024}
 }
 ```
+
+Acknowledgement
+============
+This code is based on [ViLT](https://github.com/dandelin/ViLT)
+
+
+
+
+
