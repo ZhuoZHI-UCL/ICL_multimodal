@@ -60,7 +60,9 @@ Special remarks
 
 Evaluation results
 ============
-The evaluated results for all datasets under various missing cases and sample sizes are shown in the following tables. Bold number indicates the best performance. With sufficient target dataset size (notably for $r_{sub} > 0.1$), FT-A exhibits superior performance, attributed to the update of all parameters in the target domain. MAP follows closely, achieving competitive results by updating fewer parameters. FT-C, on the other hand, performs the worst at all moments, due to the limited number of updated parameters. When the target data is limited, our proposed ICL method, particularly ICL-CA, demonstrates remarkable efficacy (especially for $r_{sub} < 0.1$), surpassing most baseline approaches. This trend intensifies as $r_{sub}$ decreases.
+The evaluated results for all datasets under various missing cases and sample sizes are shown in the following tables. Bold number indicates the best performance. $$r_{sub}$$ is the subsampling ratio for simulating data scarcity. F, $$m1$$, $$m2$$ refer to the sample with complete modalities, the sample only has $$m1$$ modality  and the sample only has $$m2$$ modality, respectively. ICL-CA and ICL-NTP are two solutions we propose. FT-A and FT-C mean fine tuning all layers/ classification layers in the transfer learning process. MAP is a recent SOTA baseline we compare with. Bold number indicates the best performance. 
+
+With sufficient target dataset size (notably for $r_{sub} > 0.1$), FT-A exhibits superior performance, attributed to the update of all parameters in the target domain. MAP follows closely, achieving competitive results by updating fewer parameters. FT-C, on the other hand, performs the worst at all moments, due to the limited number of updated parameters. When the target data is limited, our proposed ICL method, particularly ICL-CA, demonstrates remarkable efficacy (especially for $r_{sub} < 0.1$), surpassing most baseline approaches. This trend intensifies as $r_{sub}$ decreases.
 
 <img src = "Figure/0.1_1.png" width="800">
 <img src = "Figure/0.01-0.1.png" width="810">
